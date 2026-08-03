@@ -3,28 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Linhan Cao's academic homepage. Research interests: large multimodal models and visual quality assessment.">
+  <meta name="description" content="Linhan Cao's academic homepage. Research interests: multimodal content understanding with large multimodal models, visual quality assessment, and visual perception.">
   <title>Linhan Cao - Homepage</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%233b73af'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-family='Arial' font-size='18' fill='white'%3ECLH%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="layout.css">
 </head>
 <body>
   <header class="topbar">
     <nav class="nav-wrap" aria-label="Main navigation">
-      <a class="site-title" href="#home">Linhan Cao</a>
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
       <div class="nav-links">
-        <a href="#home">Home</a><a href="#about">About Me</a><a href="#education">Education</a><a href="#internships">Internships</a><a href="#publications">Publications</a><a href="#honors">Honors</a>
+        <a href="#home">Homepage</a><a href="#about">About Me</a><a href="#education">Educations</a><a href="#internships">Internships</a><a href="#publications">Publications</a><a href="#competitions">Competitions</a><a href="#honors">Honors and Awards</a>
       </div>
     </nav>
   </header>
 
   <main class="page" id="home">
     <aside class="profile">
-      <img class="avatar" src="assets/avatar.jpg" alt="Linhan Cao">
+      <img class="avatar" src="assets/avatar-zoom.jpg" alt="Linhan Cao">
       <h2>Linhan Cao</h2>
       <p class="english-name">曹淋涵</p>
-      <p class="affiliation">Shanghai Jiao Tong University<br>Information and Communication Engineering</p>
+      <p class="affiliation"><span class="affiliation-name">Shanghai Jiao Tong University</span><br>Information and Communication Engineering</p>
+      <p class="location">📍 Hangzhou / Shanghai, China</p>
       <div class="profile-links">
         <a href="mailto:caolinhan@sjtu.edu.cn">✉️ Email</a>
         <a href="https://scholar.google.com/citations?user=WmE6necAAAAJ&hl=en" target="_blank" rel="noreferrer">🎓 Google Scholar</a>
@@ -38,72 +39,118 @@
       <section class="intro" id="about">
         <h1>Linhan Cao <span>曹淋涵</span></h1>
         <p>I am currently a master's student in Information and Communication Engineering at <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noreferrer">Shanghai Jiao Tong University</a> (SJTU), where I started in Fall 2024. I also received my bachelor's degree in Information Engineering from SJTU.</p>
-        <p>My research interests include <strong>Large Multimodal Models</strong>, <strong>Visual Quality Assessment</strong>, and <strong>Reinforcement Learning</strong>. I am particularly interested in building generalizable and explainable methods for video quality understanding and assessment.</p>
-        <p>I have published first-author and co-first-author work at CVPR, AAAI, and ICIP, and have participated in visual quality assessment challenges at CVPR, ICCV, and ICME. Please feel free to contact me at <a href="mailto:caolinhan@sjtu.edu.cn">caolinhan@sjtu.edu.cn</a>.</p>
+        <p>My research interests include Large Multimodal Models, Visual Quality Assessment, and Visual Perception.</p>
+        <p>I have published first-author and co-first-author work at CVPR, AAAI, and ICIP, and have participated in visual quality assessment challenges at CVPR, ECCV, ICCV, and ICME.</p>
+        <p>I am expected to graduate in 2027.03, and I am currently on the job market!</p>
+        <p>Please feel free to contact me via Phone / WeChat / Telegram: (+86) 15190891339.</p>
       </section>
 
       <section id="education">
-        <h2>📖 Education</h2>
+        <h2>📖 Educations</h2>
         <ul class="plain-list">
-          <li><strong>Sep. 2024 — Mar. 2027 (Expected)</strong>, M.S. in Information and Communication Engineering, Shanghai Jiao Tong University (recommended admission).</li>
-          <li><strong>Sep. 2020 — Jun. 2024</strong>, B.E. in Information Engineering, Shanghai Jiao Tong University.</li>
+          <li><em>2024.09 - 2027.03 (Expected)</em>, Master in Information and Communication Engineering (Shanghai Jiao Tong University)</li>
+          <li><em>2020.09 - 2024.06</em>, Bachelor in Information Engineering (Shanghai Jiao Tong University)</li>
         </ul>
       </section>
 
       <section id="internships">
         <h2>💻 Internships</h2>
         <ul class="plain-list internship-list">
-          <li><strong>Apr. 2026 — Sep. 2026, Ant Group</strong>, Ant Star Talent Program. Research on adversarial OCR robustness; built a benchmark covering 14 attack scenarios and an automated data synthesis pipeline, and developed a two-stage OPSD + RL training framework.</li>
-          <li><strong>Sep. 2025 — Mar. 2026, Kuaishou</strong>, Image and Video Processing & Analysis Group. Research on fine-grained video quality assessment for generative video enhancement and content-adaptive encoding.</li>
-          <li><strong>Dec. 2023 — Aug. 2024, Xiaohongshu</strong>, Experience Strategy Group. Developed the RedVQA 2.0 algorithm for live-streaming and short-video quality assessment, built databases spanning multiple scenarios and resolutions, and deployed the model in production.</li>
+          <li><em>2026.04 - 2026.09</em>, Ant, <strong>Ant Star Plan A Top Talent Program</strong>. Research on adversarial OCR robustness; built a benchmark covering 14 attack scenarios and an automated data synthesis pipeline, and developed a two-stage OPSD + RL training framework.</li>
+          <li><em>2025.09 - 2026.03</em>, Kuaishou, Image and Video Processing & Analysis Group. Research on fine-grained video quality assessment for generative video enhancement and content-adaptive encoding.</li>
+          <li><em>2023.12 - 2024.08</em>, Xiaohongshu, Experience Strategy Group. Developed the RedVQA 2.0 algorithm for live-streaming and short-video quality assessment, built databases spanning multiple scenarios and resolutions, and deployed the model in production.</li>
         </ul>
       </section>
 
       <section id="publications">
         <h2>📝 Selected Publications</h2>
-        <p class="section-note">* indicates equal contribution. Please see <a href="https://scholar.google.com/citations?user=WmE6necAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a> for the complete publication list.</p>
+        <p class="section-note">Please see <a href="https://scholar.google.com/citations?user=WmE6necAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a> for the complete publication list.</p>
 
         <article class="publication">
-          <div class="paper-thumb thumb-w2s"><span>Weak-to-Strong</span><small>Video Quality Assessment</small></div>
-          <div class="paper-info"><div class="venue">CVPR 2026</div><h3>Generalizable Video Quality Assessment via Weak-to-Strong Learning</h3><p class="authors"><strong>Linhan Cao</strong>, Wei Sun, Weixia Zhang, et al.</p><p class="description">A Weak-to-Strong Learning framework that improves cross-scenario generalization through millions of automatically annotated training samples and a three-stage iterative training strategy.</p><div class="paper-actions"><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Cao_Generalizable_Video_Quality_Assessment_via_Weak-to-Strong_Learning_CVPR_2026_paper.pdf" target="_blank" rel="noreferrer">Paper</a></div></div>
+          <img class="paper-thumb paper-figure" src="assets/publications/w2s-teaser.png" alt="Weak-to-Strong Learning framework overview">
+          <div class="paper-info"><div class="venue">CVPR 2026</div><h3>Generalizable Video Quality Assessment via Weak-to-Strong Learning</h3><p class="authors"><strong>Linhan Cao*</strong>, Wei Sun*, Xiangyang Zhu, et al.</p><p class="description">A Weak-to-Strong Learning framework that improves cross-scenario generalization through millions of automatically annotated training samples and a three-stage iterative training strategy.</p><div class="paper-actions"><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Cao_Generalizable_Video_Quality_Assessment_via_Weak-to-Strong_Learning_CVPR_2026_paper.pdf" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/clh124/W2S-VQA" target="_blank" rel="noreferrer">Code</a></div></div>
         </article>
 
         <article class="publication">
-          <div class="paper-thumb thumb-vital"><span>VITAL</span><small>Vision-centered Pre-training</small></div>
-          <div class="paper-info"><div class="venue">CVPR 2026</div><h3>VITAL: Vision-Encoder-centered Pre-training for LMMs in Visual Quality Assessment</h3><p class="authors">Jun Jia*, <strong>Linhan Cao*</strong>, et al.</p><p class="description">A vision-encoder-centered foundation model and multi-task pre-training framework for visual quality assessment, enabling efficient transfer to language models of different sizes.</p><div class="paper-actions"><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jia_VITAL_Vision-Encoder-centered_Pre-training_for_LMMs_in_Visual_Quality_Assessment_CVPR_2026_paper.pdf" target="_blank" rel="noreferrer">Paper</a></div></div>
+          <img class="paper-thumb paper-figure" src="assets/publications/vital-teaser.jpg" alt="VITAL framework overview">
+          <div class="paper-info"><div class="venue">CVPR 2026</div><h3>VITAL: Vision-Encoder-centered Pre-training for LMMs in Visual Quality Assessment</h3><p class="authors">Ziheng Jia*, <strong>Linhan Cao*</strong>, Jinliang Han, et al.</p><p class="description">A vision-encoder-centered foundation model and multi-task pre-training framework for visual quality assessment, enabling efficient transfer to language models of different sizes.</p><div class="paper-actions"><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Jia_VITAL_Vision-Encoder-centered_Pre-training_for_LMMs_in_Visual_Quality_Assessment_CVPR_2026_paper.pdf" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/jzhws/VITAL-Series" target="_blank" rel="noreferrer">Code</a></div></div>
         </article>
 
         <article class="publication">
           <div class="paper-thumb thumb-thinker"><span>VQAThinker</span><small>Reasoning with RL</small></div>
-          <div class="paper-info"><div class="venue">AAAI 2026</div><h3>VQAThinker: Exploring Generalizable and Explainable Video Quality Assessment via Reinforcement Learning</h3><p class="authors"><strong>Linhan Cao</strong>, Wei Sun, Weixia Zhang, Xiangyang Zhu, et al.</p><p class="description">A GRPO-based approach that jointly optimizes ranking, regression, and temporal consistency objectives for generalizable and explainable video quality assessment.</p><div class="paper-actions"><a href="https://arxiv.org/abs/2508.06051" target="_blank" rel="noreferrer">Paper</a></div></div>
+          <div class="paper-info"><div class="venue">AAAI 2026</div><h3>VQAThinker: Exploring Generalizable and Explainable Video Quality Assessment via Reinforcement Learning</h3><p class="authors"><strong>Linhan Cao*</strong>, Wei Sun*, Weixia Zhang, et al.</p><p class="description">A GRPO-based approach that jointly optimizes ranking, regression, and temporal consistency objectives for generalizable and explainable video quality assessment.</p><div class="paper-actions"><a href="https://arxiv.org/abs/2508.06051" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/clh124/VQAThinker" target="_blank" rel="noreferrer">Code</a></div></div>
         </article>
 
         <article class="publication">
           <div class="paper-thumb thumb-rag"><span>QualiRAG</span><small>Retrieval-Augmented VQU</small></div>
-          <div class="paper-info"><div class="venue">arXiv 2026</div><h3>QualiRAG: Retrieval-Augmented Generation for Visual Quality Understanding</h3><p class="authors"><strong>Linhan Cao</strong>, Wei Sun, Weixia Zhang, Xiangyang Zhu, et al.</p><p class="description">A training-free framework that augments visual quality understanding in large multimodal models through multi-source quality knowledge and dynamic retrieval.</p><div class="paper-actions"><a href="https://arxiv.org/abs/2601.18195" target="_blank" rel="noreferrer">Paper</a></div></div>
+          <div class="paper-info"><div class="venue">arXiv 2026</div><h3>QualiRAG: Retrieval-Augmented Generation for Visual Quality Understanding</h3><p class="authors"><strong>Linhan Cao*</strong>, Wei Sun*, Weixia Zhang, et al.</p><p class="description">A training-free framework that augments visual quality understanding in large multimodal models through multi-source quality knowledge and dynamic retrieval.</p><div class="paper-actions"><a href="https://arxiv.org/abs/2601.18195" target="_blank" rel="noreferrer">Paper</a></div></div>
         </article>
 
         <article class="publication">
           <div class="paper-thumb thumb-jnd"><span>SG-JND</span><small>Semantic-guided Compression</small></div>
-          <div class="paper-info"><div class="venue">ICIP 2024 · Oral</div><h3>SG-JND: Semantic-Guided Just Noticeable Distortion Predictor for Image Compression</h3><p class="authors"><strong>Linhan Cao</strong>, Wei Sun, Xiongkuo Min, Jun Jia, et al.</p><p class="description">A semantic-guided JND predictor that fuses multi-level features with cross-scale attention and achieves leading performance on public JND datasets.</p><div class="paper-actions"><a href="https://arxiv.org/abs/2408.04273" target="_blank" rel="noreferrer">Paper</a></div></div>
+          <div class="paper-info"><div class="venue">ICIP 2024 · Oral</div><h3>SG-JND: Semantic-Guided Just Noticeable Distortion Predictor for Image Compression</h3><p class="authors"><strong>Linhan Cao</strong>, Wei Sun, Xiongkuo Min, et al.</p><p class="description">A semantic-guided JND predictor that fuses multi-level features with cross-scale attention and achieves leading performance on public JND datasets.</p><div class="paper-actions"><a href="https://arxiv.org/abs/2408.04273" target="_blank" rel="noreferrer">Paper</a></div></div>
         </article>
 
-        <h3 class="subheading">Other Work</h3>
-        <article class="publication compact">
-          <div class="paper-thumb thumb-hdr"><span>HDR</span><small>Compressed VQA</small></div>
-          <div class="paper-info"><div class="venue">ICME 2025 Challenge</div><h3>CompressedVQA-HDR: Generalized Full-reference and No-reference Quality Assessment Models for Compressed High Dynamic Range Videos</h3><p class="authors">Wei Sun, <strong>Linhan Cao</strong>, Kang Fu, et al.</p><p class="description">First-place solution in the full-reference track of the ICME 2025 Generalizable HDR & SDR Video Quality Measurement Grand Challenge.</p><div class="paper-actions"><a href="https://arxiv.org/abs/2507.11900" target="_blank" rel="noreferrer">Paper</a></div></div>
-        </article>
+        <h3 class="subheading">Other Publications</h3>
+        <ul class="other-publications">
+          <li><div class="other-title"><span class="other-venue">CVPR 2026</span> Adapter Shield: A Unified Framework with Built-in Authentication for Preventing Unauthorized Zero-Shot Image-to-Image Generation</div><div class="other-authors">Jun Jia, Hongyi Miao, Yingjie Zhou, Wangqiu Zhou, Jianbo Zhang, <strong>Linhan Cao</strong>, Dandan Zhu, Hua Yang, Xiongkuo Min, Wei Sun, Guangtao Zhai</div><a class="other-paper" href="https://arxiv.org/abs/2512.00075" target="_blank" rel="noreferrer">▤ Paper</a></li>
+          <li><div class="other-title"><span class="other-venue">ESWA 2026</span> Enhancing Blind Video Quality Assessment with Rich Quality-aware Features</div><div class="other-authors">Wei Sun, <strong>Linhan Cao</strong>, Jun Jia, Zhichao Zhang, Zicheng Zhang, Xiongkuo Min, Guangtao Zhai</div><a class="other-paper" href="https://arxiv.org/abs/2405.08745" target="_blank" rel="noreferrer">▤ Paper</a></li>
+          <li><div class="other-title"><span class="other-venue">arXiv 2025</span> DLADiff: A Dual-Layer Defense Framework against Fine-Tuning and Zero-Shot Customization of Diffusion Models</div><div class="other-authors">Jun Jia, Hongyi Miao, Yingjie Zhou, <strong>Linhan Cao</strong>, Yanwei Jiang, Wangqiu Zhou, Dandan Zhu, Hua Yang, Wei Sun, Xiongkuo Min, Guangtao Zhai</div><a class="other-paper" href="https://arxiv.org/abs/2511.19910" target="_blank" rel="noreferrer">▤ Paper</a></li>
+          <li><div class="other-title"><span class="other-venue">ICCVW 2025</span> Engagement Prediction of Short Videos with Large Multimodal Models</div><div class="other-authors">Wei Sun*, <strong>Linhan Cao*</strong>, Yuqin Cao, Weixia Zhang, Wen Wen, Kaiwei Zhang, Zijian Chen, Fangfang Lu, Xiongkuo Min, Guangtao Zhai</div><a class="other-paper" href="https://arxiv.org/abs/2508.02516" target="_blank" rel="noreferrer">▤ Paper</a></li>
+          <li><div class="other-title"><span class="other-venue">ICCVW 2025</span> Efficient Face Image Quality Assessment via Self-training and Knowledge Distillation</div><div class="other-authors">Wei Sun, Weixia Zhang, <strong>Linhan Cao</strong>, Jun Jia, Xiangyang Zhu, Dandan Zhu, Xiongkuo Min, Guangtao Zhai</div><a class="other-paper" href="https://arxiv.org/abs/2507.15709" target="_blank" rel="noreferrer">▤ Paper</a></li>
+          <li><div class="other-title"><span class="other-venue">ICMEW 2025</span> CompressedVQA-HDR: Generalized Full-reference and No-reference Quality Assessment Models for Compressed High Dynamic Range Videos</div><div class="other-authors">Wei Sun, <strong>Linhan Cao</strong>, Kang Fu, Dandan Zhu, Jun Jia, Menghan Hu, Xiongkuo Min, Guangtao Zhai</div><a class="other-paper" href="https://arxiv.org/abs/2507.11900" target="_blank" rel="noreferrer">▤ Paper</a></li>
+          <li><div class="other-title"><span class="other-venue">CVPRW 2025</span> An Empirical Study for Efficient Video Quality Assessment</div><div class="other-authors">Wei Sun*, Kang Fu*, <strong>Linhan Cao</strong>, Dandan Zhu, Kaiwei Zhang, Yucheng Zhu, Zicheng Zhang, Menghan Hu, Xiongkuo Min, Guangtao Zhai</div><a class="other-paper" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=11147863" target="_blank" rel="noreferrer">▤ Paper</a></li>
+          <li><div class="other-title"><span class="other-venue">ECCV 2024</span> Assessing UHD Image Quality from Aesthetics, Distortions, and Saliency</div><div class="other-authors">Wei Sun, Weixia Zhang, Yuqin Cao, <strong>Linhan Cao</strong>, Jun Jia, Zijian Chen, Zicheng Zhang, Xiongkuo Min, Guangtao Zhai</div><a class="other-paper" href="https://arxiv.org/abs/2409.00749" target="_blank" rel="noreferrer">▤ Paper</a></li>
+        </ul>
+
+        <h3 class="subheading" id="competitions">Competitions</h3>
+        <div class="competition-list">
+          <article class="competition-item">
+            <div class="competition-visual"><img class="competition-framework" src="assets/competitions/iccv-vqc-framework.jpg" alt="Overall framework of Team ECNU-SJTU VQA"><span class="competition-rank">1st Place</span></div>
+            <div><time>2025 · ICCV VQualA</time><h4>Visual Quality Comparison for Large Multimodal Models Challenge</h4><p>Team ECNU-SJTU VQA; <strong>Team Leader</strong>.</p><a href="https://arxiv.org/abs/2509.09190" target="_blank" rel="noreferrer">Paper</a></div>
+          </article>
+          <article class="competition-item">
+            <div class="competition-visual"><img src="assets/competitions/iccv-evqa.png" alt="ICCV VQualA EVQA-SnapUGC challenge paper preview"><span class="competition-rank">1st Place</span></div>
+            <div><time>2025 · ICCV VQualA</time><h4>EVQA-SnapUGC: Engagement Prediction for Short Videos Challenge</h4><p>Team ECNU-SJTU VQA.</p><a href="https://arxiv.org/abs/2508.02516" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/sunwei925/LMM-EVQA" target="_blank" rel="noreferrer">Code</a></div>
+          </article>
+          <article class="competition-item">
+            <div class="competition-visual"><img src="assets/competitions/iccv-fiqa.png" alt="ICCV VQualA FIQA challenge paper preview"><span class="competition-rank">1st Place</span></div>
+            <div><time>2025 · ICCV VQualA</time><h4>Face Image Quality Assessment Challenge</h4><p>Team ECNU-SJTU VQA.</p><a href="https://arxiv.org/abs/2507.15709" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/sunwei925/Efficient-FIQA" target="_blank" rel="noreferrer">Code</a></div>
+          </article>
+          <article class="competition-item">
+            <div class="competition-visual"><img src="assets/competitions/cvpr-ntire25.png" alt="CVPR NTIRE 2025 challenge paper preview"><span class="competition-rank">3rd Place</span></div>
+            <div><time>2025 · CVPR NTIRE</time><h4>Efficient Short-form UGC Video Quality Assessment Challenge</h4><p>Team ECNU-SJTU VQA; Efficient KVQ track.</p><a href="https://ieeexplore.ieee.org/abstract/document/11147863" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/sunwei925/E-VQA" target="_blank" rel="noreferrer">Code</a></div>
+          </article>
+          <article class="competition-item">
+            <div class="competition-visual"><img src="assets/competitions/icme-hdr.png" alt="ICME 2025 HDR and SDR video quality challenge paper preview"><span class="competition-rank">1st Place</span></div>
+            <div><time>2025 · IEEE ICME</time><h4>Generalizable HDR &amp; SDR Video Quality Measurement Grand Challenge</h4><p>Full-reference (FR) track.</p><a href="https://arxiv.org/abs/2507.11900" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/sunwei925/CompressedVQA-HDR" target="_blank" rel="noreferrer">Code</a></div>
+          </article>
+          <article class="competition-item">
+            <div class="competition-visual"><img src="assets/competitions/eccv-aim24.png" alt="ECCV AIM 2024 UHD-IQA challenge method preview"><span class="competition-rank">1st Place</span></div>
+            <div><time>2024 · ECCV AIM</time><h4>UHD Blind Photo Quality Assessment Challenge</h4><p>Team SJTU.</p><a href="https://arxiv.org/abs/2409.16271" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/sunwei925/UIQA" target="_blank" rel="noreferrer">Code</a></div>
+          </article>
+          <article class="competition-item">
+            <div class="competition-visual"><img src="assets/competitions/cvpr-ntire24.png" alt="CVPR NTIRE 2024 challenge team preview"><span class="competition-rank">1st Place</span></div>
+            <div><time>2024 · CVPR NTIRE</time><h4>Short-form UGC Video Quality Assessment Challenge</h4><p>Team SJTU MMLab.</p><a href="https://arxiv.org/abs/2404.11313" target="_blank" rel="noreferrer">Paper</a><a href="https://github.com/sunwei925/RQ-VQA" target="_blank" rel="noreferrer">Code</a></div>
+          </article>
+        </div>
       </section>
 
       <section id="projects">
         <h2>📚 Open-source Projects</h2>
-        <ul class="plain-list"><li><a href="https://github.com/clh124/Awesome-Hard-OCR-LMM" target="_blank" rel="noreferrer"><strong>Awesome-Hard-OCR-LMM</strong></a>: A curated collection of resources, datasets, and research on OCR-capable large multimodal models in challenging and adversarial scenarios.</li></ul>
+        <article class="project-card">
+          <img src="assets/projects/awesome-hard-ocr-lmm.png" alt="Awesome Hard OCR LMM project poster">
+          <div class="project-info">
+            <div class="project-heading"><h3>Awesome-Hard-OCR-LMM</h3><a class="project-code" href="https://github.com/clh124/Awesome-Hard-OCR-LMM" target="_blank" rel="noreferrer">Code</a></div>
+            <p>A curated collection of resources, datasets, and research on OCR-capable large multimodal models in challenging and adversarial scenarios.</p>
+          </div>
+        </article>
       </section>
 
       <section id="honors">
         <h2>🎖 Honors and Awards</h2>
         <ul class="plain-list">
-          <li>2025 National Scholarship for Graduate Students</li><li>2025 Outstanding Student, Shanghai Jiao Tong University</li><li>2024 First-class Graduate Academic Scholarship, Shanghai Jiao Tong University</li><li>First place in visual quality assessment challenge tracks at CVPR 2024, ICCV 2025, and ICME 2025</li><li>Outstanding Student and multiple academic scholarships during undergraduate study at Shanghai Jiao Tong University</li>
+          <li>2025 National Scholarship (国家奖学金)</li><li>2025 Outstanding Student (三好学生)</li><li>2024 First-class Graduate Academic Scholarship (一等学业奖学金)</li>
         </ul>
       </section>
       <footer><p>© <span id="year"></span> Linhan Cao. Last updated: August 2026.</p></footer>
